@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/labCap/react-sneakers.git/static/css/main.c7c0fda6.css",
-    "main.js": "/labCap/react-sneakers.git/static/js/main.70cbc62f.js",
+    "main.js": "/labCap/react-sneakers.git/static/js/main.3927b358.js",
     "index.html": "/labCap/react-sneakers.git/index.html",
     "main.c7c0fda6.css.map": "/labCap/react-sneakers.git/static/css/main.c7c0fda6.css.map",
-    "main.70cbc62f.js.map": "/labCap/react-sneakers.git/static/js/main.70cbc62f.js.map"
+    "main.3927b358.js.map": "/labCap/react-sneakers.git/static/js/main.3927b358.js.map"
   },
   "entrypoints": [
     "static/css/main.c7c0fda6.css",
-    "static/js/main.70cbc62f.js"
+    "static/js/main.3927b358.js"
   ]
 }
