@@ -1,0 +1,83 @@
+.card {
+  width: 220px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  padding: 20px 30px 30px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 14px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 14px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__price-box {
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+
+    color: #bdbdbd;
+    margin-bottom: 2px;
+  }
+
+  &__price-num {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.card-btn {
+  border: 1px solid #d3d3d3;
+  border-radius: 7px;
+  color: #d3d3d3;
+  background-color: #fff;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: all 0.4s ease-in-out;
+
+  &:not(.active) {
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      color: darken($color: #d3d3d3, $amount: 20%);
+    }
+    &:active {
+      color: lighten($color: #d3d3d3, $amount: 20%);
+    }
+  }
+}
